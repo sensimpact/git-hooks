@@ -1,0 +1,3 @@
+#!/bin/bash
+message=`cat $1`
+php -f commit-msg.php -- "commit-text=${message}"
